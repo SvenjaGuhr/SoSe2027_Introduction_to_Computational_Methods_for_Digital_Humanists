@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">SK Sturm Graz</title>
+        <title type="sub">Sentence-segmented TEI version of the Wikipedia article</title>
+        <respStmt xml:id="SG">
+          <resp>TEI encoding and sentence segmentation</resp>
+          <persName>Svenja Guhr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Svenja Guhr</authority>
+        <pubPlace>Graz</pubPlace>
+        <date when="2026-10-10">2026-10-10</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Text from Wikipedia, licensed under CC BY-SA 4.0. Derivatives must keep this licence and attribute the source.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title level="m">SK Sturm Graz</title>
+          <author>Wikipedia contributors</author>
+          <publisher>Wikipedia, The Free Encyclopedia</publisher>
+          <idno type="URI">https://en.wikipedia.org/w/index.php?oldid=1375555621</idno>
+          <note>Revision 1375555621, retrieved <date when="2026-10-10">2026-10-10</date>.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="spaCy" version="3.7.5">
+          <label>spaCy rule-based sentencizer</label>
+        </application>
+      </appInfo>
+      <projectDesc>
+        <p>Teaching material for named entity recognition (PERSON) in the course 'Introduction to Computational Methods for Digital Humanities', MA Digitale Geisteswissenschaften, University of Graz.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Only running prose is included. Removed: infobox and all tables, figures, footnote markers, maintenance tags such as [citation needed], and the sections: Honours, European record, Players, Coaching staff, Managerial history, References, External links.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <segmentation>
+          <p>Each <gi>s</gi> element holds one sentence, split automatically with the spaCy sentencizer and repaired by rule where it split after abbreviations, after ordinals or before lower-case continuations (repairs: abbreviation: 1, ordinal: 1). Sentence boundaries have not been checked by hand.</p>
+        </segmentation>
+        <normalization>
+          <p>Whitespace was normalised; the wording of the source, including its errors, is unchanged.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+        <language ident="de">German</language>
+        <language ident="de-Latn-fonipa">German, IPA transcription</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10" who="#SG">Generated with fetch_wikipedia_tei.py.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="lead">
+        <p>
+          <s xml:id="s1">Sportklub Sturm Graz (<foreign xml:lang="de-Latn-fonipa">[ʃtʊʁm ɡʁaːts]</foreign>, lit. 'Graz Storm') is an Austrian professional association football club, based in Graz, playing in the Austrian Football Bundesliga.</s>
+          <s xml:id="s2">The club was founded in 1909.</s>
+          <s xml:id="s3">Its colours are black and white.</s>
+        </p>
+        <p>
+          <s xml:id="s4">In its history, Sturm Graz has won the Austrian football championship five times, in 1998, 1999, 2011, 2024 and 2025, and participated several times in the UEFA Champions League and UEFA Europa League.</s>
+          <s xml:id="s5">Their biggest rivals are Graz neighbours Grazer AK, with whom they share their stadium, the Merkur Arena.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>History</head>
+        <div type="subsection">
+          <head>Foundation</head>
+          <p>
+            <s xml:id="s6">SK Sturm Graz was founded in 1909 by students, just like its neighbours Grazer AK, founded in 1902.</s>
+            <s xml:id="s7">Its initial name was <foreign xml:lang="de">Grazer Fußballclub Sturm</foreign>.</s>
+            <s xml:id="s8">Between 1921 and 1949, the team enjoyed considerable success in winning the regional Styrian championship 11 times.</s>
+          </p>
+          <p>
+            <s xml:id="s9">The Anschluss in 1938 made Austria part of the German Third Reich and Austrian clubs became part of German football competition.</s>
+            <s xml:id="s10">Sturm played in the opening round of the 1940 Tschammerpokal, predecessor to the modern-day DFB-Pokal.</s>
+            <s xml:id="s11">They then qualified to play in the Gauliga Ostmark, one of Germany's top-flight regional leagues, in 1941.</s>
+            <s xml:id="s12">The team withdrew part way through the 1941–42 season and was relegated after an 11th-place result in the following campaign.</s>
+          </p>
+          <p>
+            <s xml:id="s13">In 1949, Sturm entered the Austrian national league as the first non-Vienna-based team.</s>
+          </p>
+        </div>
+        <div type="subsection">
+          <head>1981: First success</head>
+          <p>
+            <s xml:id="s14">The first great success came under manager Otto Barić, when the club finished runners-up in the league in the 1980–81 season.</s>
+            <s xml:id="s15">In 1983–84, the club battled through to the quarter-finals of the UEFA Cup, beaten only by Nottingham Forest through a penalty in extra-time.</s>
+          </p>
+        </div>
+        <div type="subsection">
+          <head>1992: Start of a new era</head>
+          <p>
+            <s xml:id="s16">In December 1992, Hannes Kartnig was installed as president, naming his close friend Heinz Schilcher as new manager.</s>
+            <s xml:id="s17">At the time, Sturm was languishing under enormous debts.</s>
+            <s xml:id="s18">Sturm qualified for the newly formed Zehnerliga, and Kartnig and Schilcher decided the best course of action would be to abstain from big-name signings, opting instead for a new start using young players from the club's youth setup.</s>
+            <s xml:id="s19">In 1993, Milan Đuričić became manager.</s>
+          </p>
+        </div>
+        <div type="subsection">
+          <head>1994 to 2002: Osim and European football</head>
+          <p>
+            <s xml:id="s20">In 1994, the Bosnian Ivica Osim took control of the up-to-now unsuccessful Sturm; this proved to be a crucial turning-point in the club's history.</s>
+            <s xml:id="s21">Osim succeeded in producing an effective and powerful team using the young and inexperienced players at his disposal, strengthened with a few experienced leading players.</s>
+            <s xml:id="s22">The team's first success was as runners-up in the league in 1995.</s>
+            <s xml:id="s23">One year later, they won their first title, beating Admira Wacker in the cup final, but wobbling in the league to finish runners-up yet again.</s>
+          </p>
+          <p>
+            <s xml:id="s24">In 1998, Sturm won its first Austrian Bundesliga title, pulling away from the field early on and winning the title with seven games in hand.</s>
+            <s xml:id="s25">Sturm set two records during this season; they remained unbeaten in their first 12 matches, and then for another 19 matches later in the season.</s>
+            <s xml:id="s26">At the end of the season, they amassed 81 points, an Austrian record total, winning the title with 19 points ahead of Rapid Wien.</s>
+            <s xml:id="s27">This season also saw the development of the "magic triangle" of Mario Haas, Hannes Reinmayr and Ivica Vastić.</s>
+          </p>
+          <p>
+            <s xml:id="s28">The year 1999 saw Sturm Graz retain the title, securing the treble as they did so (league, cup and super cup), in addition to appearing in the qualification for the UEFA Champions League.</s>
+            <s xml:id="s29">Here, however, a scoreless draw with Spartak Moscow proved to be the team's only success.</s>
+            <s xml:id="s30">The 1999–2000 season saw Sturm in the Champions League for a second time, finishing third in its group.</s>
+            <s xml:id="s31">FC Tirol wrested the domestic title from Sturm's grasp, but the runners-up spot achieved was sufficient for a third trip into the following season's Champions League.</s>
+          </p>
+          <p>
+            <s xml:id="s32">Sensationally, Sturm Graz won its Champions League Group D (against Galatasaray, Rangers and Monaco), reaching the second round for the first time.</s>
+            <s xml:id="s33">The league campaign was less successful – a fourth-place finish, the worst under Osim.</s>
+          </p>
+          <p>
+            <s xml:id="s34">After the Champions League exploits, several key players out of the 12 who later left were not suitably replaced.</s>
+            <s xml:id="s35">Worse still, this hasty squad redevelopment devoured almost all the profit made from the European campaign.</s>
+            <s xml:id="s36">Only a small fraction of the money was invested in youth development to establish an academy.</s>
+            <s xml:id="s37">Despite this, the newly assembled team again finished in second place in the league, but failed at the qualification hurdle for the Champions League.</s>
+            <s xml:id="s38">This, together with increasing criticism from the club president, precipitated the departure of Osim after eight years at the helm.</s>
+          </p>
+        </div>
+        <div type="subsection">
+          <head>2002 to 2009: Consolidation</head>
+          <p>
+            <s xml:id="s39">Franco Foda and Gilbert Gress (seven defeats in nine games) both enjoyed short and fruitless stints as coach, before former sweeper Mihailo Petrović took control in autumn 2003.</s>
+            <s xml:id="s40">He presided over a gradual introduction of young talent, securing the team's place in the top flight in both 2004 and 2005, finishing in seventh position.</s>
+          </p>
+          <p>
+            <s xml:id="s41">Since 2005, Sturm has been facing financial problems and, on 1 September 2006, a petition of bankruptcy was filed by the tax authorities.</s>
+            <s xml:id="s42">Because of the financial situation, Sturm was forced to use young players who were soon sold to reconsole the club.</s>
+            <s xml:id="s43">Also in 2006, coach Mihailo Petrović left the club and was replaced by Franco Foda.</s>
+          </p>
+        </div>
+        <div type="subsection">
+          <head>2009 to present day: New successes</head>
+          <p>
+            <s xml:id="s44">After a fourth-place finish in 2009, the Blackies qualified for the group stage of the UEFA Europa League in 2009–10.</s>
+            <s xml:id="s45">Their opponents were Galatasaray, Panathinaikos and Dinamo București.</s>
+            <s xml:id="s46">In 2010, the Blackies won the ÖFB-Cup in Klagenfurt in front of 25,000 of its own fans against Wiener Neustadt.</s>
+            <s xml:id="s47">That was the highest number of fans ever travelling to a match in a different state.</s>
+          </p>
+          <p>
+            <s xml:id="s48">In 2010–11, Sturm won the Austrian championship.</s>
+            <s xml:id="s49">A highlight of the season was a qualifying match against Juventus in the UEFA Europa League.</s>
+          </p>
+          <p>
+            <s xml:id="s50">In 2011–12, Sturm played in the UEFA Champions League qualification rounds and managed to defeat Hungarian club Videoton and Zestaponi of Georgia.</s>
+            <s xml:id="s51">In the play-off, however, Sturm Graz lost against BATE Borisov, thus ensuring qualification to the group stages of the Europa League, where they were grouped with Anderlecht, Lokomotiv Moscow and AEK Athens.</s>
+            <s xml:id="s52">At the end of the season, Sturm finished fifth in the Bundesliga and head coach Franco Foda was fired after six years.</s>
+            <s xml:id="s53">With his replacement Peter Hyballa, Sturm played strong during the autumn months, but a poor spring resulted in Hyballa's dismissal before the end of the season.</s>
+            <s xml:id="s54">Sturm managed to fourth in the final league table, albeit with the lowest number of points ever sufficed for fourth place.</s>
+            <s xml:id="s55">This ensured Europa League qualification for the subsequent year.</s>
+            <s xml:id="s56">Darko Milanič, who won several titles with Maribor in Slovenia, took the reins of the club for the 2013–14 campaign.</s>
+            <s xml:id="s57">In the 2023–24 season, Sturm Graz clinched their fourth league title after a 2–0 win over Austria Klagenfurt on the final matchday, ending Red Bull Salzburg dominance for the last decade, in addition to securing a Champions League group stage berth for the first time since 2000–01.</s>
+          </p>
+        </div>
+      </div>
+      <div type="section">
+        <head>Stadium</head>
+        <p>
+          <s xml:id="s58">The traditional home of the team for many years was the Gruabn, which held over 12,000 people – almost exclusively standing – and which was characterised by its narrow playing field and the proximity of the fans to the players.</s>
+          <s xml:id="s59">From 1997 to 2005, Gruabn was used just as a training ground and for youth and amateur matches.</s>
+          <s xml:id="s60">In 2005, the ground was sold to the city of Graz to relieve the club's financial difficulties.</s>
+          <s xml:id="s61">The year 1997 saw the club's move to the Arnold Schwarzenegger Stadium, shared between Sturm and its local rivals, Grazer AK.</s>
+          <s xml:id="s62">From February 2006, the stadium was called UPC-Arena.</s>
+          <s xml:id="s63">In July 2016, Merkur Insurance won the Sponsoring rights for the stadium.</s>
+          <s xml:id="s64">The stadium is now called the Merkur Arena.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>Fans and the Graz Derby</head>
+        <p>
+          <s xml:id="s65">A study published in 2008 by the German market research institute Sport + Markt showed that Sturm have around 360,000 fans across Austria, which is only second to the number of Rapid Wien supporters.</s>
+          <s xml:id="s66">In Europe, there are estimated to be 410,000 fans, which ranks them as the 117th-most supported club.</s>
+        </p>
+        <p>
+          <s xml:id="s67">There are several organised fan groups- a few ones are Jewels Sturm and the Brigata Graz, which were both founded in 1994, and Grazer Sturmflut, founded two years later in 1996.</s>
+        </p>
+        <p>
+          <s xml:id="s68">Sturm fans have a friendship with fans of German 2. Bundesliga club Karlsruhe.</s>
+          <s xml:id="s69">They have also contacts with fans of Werder Bremen and fans from Pisa and Carrara in the Italian league.</s>
+          <s xml:id="s70">More recently, they have also had contacts with a group of Maribor ultras.</s>
+        </p>
+        <p>
+          <s xml:id="s71">Sturm have a big rivalry with cross-town rivals Grazer AK, with whom they compete the Graz Derby.</s>
+          <s xml:id="s72">In 1974, there was big opposition from both sets of fans against a proposed merger to become "FC Graz."</s>
+          <s xml:id="s73">Since 1920, excluding the friendly matches (especially before the first official Styrian Cup in 1920), 199 matches have been played between the two, of which there were 185 encounters in the league (130 at the professional level and 55 at amateur level in the Styrian League); an additional seven encounters in the Austrian Cup; one match in the Austrian Supercup; two meetings in the Tschammerpokal and four games in the Styrian Cup.</s>
+          <s xml:id="s74">The first Derby took place in 1911, the last was dated 2 Nov 2023.</s>
+          <s xml:id="s75">So far, Sturm have won more derby matches than Grazer AK.</s>
+        </p>
+        <p>
+          <s xml:id="s76">Other rivalries are with the two Vienna clubs (Austria Wien and Rapid Wien) due to the history of competition for trophies between the three clubs, and as with most ultras the fans have a strong dislike of Red Bull Salzburg, unhappy with the acquisition of Austria Salzburg by Austrian energy drink company Red Bull.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
