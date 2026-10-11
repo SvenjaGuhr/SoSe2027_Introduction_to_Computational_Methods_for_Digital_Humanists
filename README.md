@@ -11,7 +11,7 @@ This is a temporary repository with the slides, notebooks, code and data for the
 
 ## Author
 
-Svenja Guhr. 2026. *Computational Methods for Digital Humanities*, GitHub Repository, [https://github.com/SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for_Digital_Humanists]https://github.com/SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for_Digital_Humanists. 
+Svenja Guhr. 2026. *Computational Methods for Digital Humanities*, GitHub Repository, https://github.com/SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for_Digital_Humanists.
 
 ## Statement of use of generative language models
 
