@@ -1,4 +1,4 @@
-# SoSe 2027 – Computational Methods for Digital Humanities
+# SoSe 2027 – Introduction to Computational Methods for Digital Humanists
 
 Teaching materials for the master's course *Computational Methods for Digital
 Humanities* (University of Graz, summer semester 2027). This module works
