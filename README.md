@@ -3,7 +3,8 @@
 Teaching materials for the master's course *Introduction to Computational Methods for Digital
 Humanists* (University of Graz, summer semester 2027). 
 
-This is a temporary repository with the slides, notebooks, code and data for the course. For the course itself, all material, readings, announcements and submissions will be on Moodle. 
+This is a temporary repository with a selection of slides, notebooks, code and data for the teaching demo. 
+All material, readings, announcements and submissions will be available on Moodle. 
 
 <img width="1018" height="568" alt="Screenshot 2026-10-11 at 09 52 40" src="https://github.com/user-attachments/assets/e62e1b01-216f-4a94-84e8-8e3a698d288a" />
 
