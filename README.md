@@ -1,7 +1,7 @@
 # SoSe 2027 – Introduction to Computational Methods for Digital Humanists
 
 Teaching materials for the master's course *Introduction to Computational Methods for Digital
-Humanists* (University of Graz, summer semester 2027). 
+Humanists*.
 
 This is a temporary repository with a selection of slides, notebooks, code and data for the teaching demo. 
 All material, readings, announcements and submissions will be available on Moodle. 
