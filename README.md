@@ -1,12 +1,11 @@
 # SoSe 2027 – Introduction to Computational Methods for Digital Humanists
 
-Teaching materials for the master's course *Computational Methods for Digital
-Humanities* (University of Graz, summer semester 2027). This module works
-through named entity recognition (NER) as a case study, from manual annotation
-to automated tagging and its evaluation.
+Teaching materials for the master's course *Introduction to Computational Methods for Digital
+Humanists* (University of Graz, summer semester 2027). 
 
-This repository holds the code and the annotation materials. It does **not**
-redistribute any in-copyright source text (see *Data and licensing* below).
+<img width="1018" height="568" alt="Screenshot 2026-10-11 at 09 52 40" src="https://github.com/user-attachments/assets/e62e1b01-216f-4a94-84e8-8e3a698d288a" />
+
+
 
 ## What `fetch_wikipedia_tei.py` does
 
@@ -147,4 +146,8 @@ real file.
 
 Svenja Guhr. Course: *Computational Methods for Digital Humanities*, MA Digitale
 Geisteswissenschaften, University of Graz, SoSe 2027.
-Repository: `SvenjaGuhr/SoSe2027_Computational_Methods_for_Digital_Humanities`.
+Repository: `SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for_Digital_Humanists`.
+
+## Statement of use of generative language models
+
+The code has been supported by generative AI through translation of the English-language algorithm into python code. 
