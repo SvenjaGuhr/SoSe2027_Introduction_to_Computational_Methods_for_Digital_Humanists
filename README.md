@@ -9,7 +9,7 @@ All material, readings, announcements and submissions will be available on Moodl
 
 ### Notebook for Teaching Sample on October 13, 2026: 
 https://colab.research.google.com/github/SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for_Digital_Humanists/blob/main/ner_object_detection.ipynb 
-or short link: https://l1nk.dev/2vy9dwv  
+or short link: [https://l1nk.dev/2vy9dwv](https://tinyurl.com/2ck64va3)  
 
 
 
