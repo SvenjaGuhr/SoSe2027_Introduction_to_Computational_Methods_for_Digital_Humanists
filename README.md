@@ -15,7 +15,7 @@ https://github.com/SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for
 
 
 
-## Author
+
 
 Svenja Guhr. 2026. *Introduction to Computational Methods for Digital Humanists*, GitHub Repository, https://github.com/SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for_Digital_Humanists.
 
