@@ -8,7 +8,11 @@ All material, readings, announcements and submissions will be available on Moodl
 
 
 ### Notebook for Teaching Sample on October 13, 2026: 
-https://github.com/SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for_Digital_Humanists/blob/main/ner_object_detection.ipynb
+https://colab.research.google.com/github/SvenjaGuhr/SoSe2027_Introduction_to_Computational_Methods_for_Digital_Humanists/blob/main/ner_object_detection.ipynb 
+<img width="1343" height="39" alt="image" src="https://github.com/user-attachments/assets/d202def9-369d-4192-aff3-f90baf10ec5e" />
+or short link: https://l1nk.dev/2vy9dwv  
+
+
 
 ## Overview first half of the semester
 <img width="1153" height="640" alt="Screenshot 2026-10-13 at 09 35 51" src="https://github.com/user-attachments/assets/f63ef1e3-6124-44b7-8ceb-8b6b708ebb77" />
